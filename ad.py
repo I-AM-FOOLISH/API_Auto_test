@@ -1,7 +1,0 @@
-from selenium import webdriver
-import time
-driver=webdriver.Chrome()
-driver.get("https://www.baidu.com")
-driver.maximize_window()
-driver.quit()
-
